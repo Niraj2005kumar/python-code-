@@ -36,3 +36,26 @@ l[1] = 20
 print(l)
 
 
+# Duplicates :- you can have duplicates value 
+
+#t = [1,1,1,2,2,2,3,3,3,3]
+
+
+# traversing on list 
+
+a = [10,20,30,40 , 20]
+
+# traversing on values 
+
+for i in a:
+    print(i)
+
+
+# traversing on index :- esme hum directily hum value ko acces kr sakte hai 
+
+for i in range(0,len(a)):
+    print(a[i])
+
+
+
+
