@@ -1,30 +1,30 @@
-OOPs (Object-Oriented Programming) in Python
+# OOPs (Object-Oriented Programming) in Python
 
-Object-Oriented Programming (OOP) is a programming paradigm that organizes code using objects and classes. It helps make programs modular, reusable, and easier to maintain.
-
-
-Question :- what is a class ?
-
-a class is a blueprint for creating object 
-
-ex:-  class Student:
-            def __init__(self, name, age):
-                self.name = name
-                self.age = age
-
-            def display(self):
-                print(f"Name: {self.name}, Age: {self.age}")
+# Object-Oriented Programming (OOP) is a programming paradigm that organizes code using objects and classes. It helps make programs modular, reusable, and easier to maintain.
 
 
-Question :- what is encapsulation?
+# Question :- what is a class ?
 
-Data aur methods ko ek hi class ke andar rakhna aur data ko direct access se protect karna Encapsulation kehlata hai.
+# a class is a blueprint for creating object 
+
+# ex:-  class Student:
+#             def __init__(self, name, age):
+#                 self.name = name
+#                 self.age = age
+
+#             def display(self):
+#                 print(f"Name: {self.name}, Age: {self.age}")
 
 
----->> matlab ki data ko safe rakhna or data ko koe bhi access na kr sakte apni class ke under 
+# Question :- what is encapsulation?
+
+# Data aur methods ko ek hi class ke andar rakhna aur data ko direct access se protect karna Encapsulation kehlata hai.
 
 
-ex:- 
+# ---->> matlab ki data ko safe rakhna or data ko koe bhi access na kr sakte apni class ke under 
+
+
+# ex:- 
 class Bank:
     def __init__(self):
         self.__balance = 1000
@@ -35,16 +35,16 @@ class Bank:
 b = Bank()
 b.show()
 
---> ATM me app balance dekh sakte ho lekin directly change nhi kr sakte ho 
+# --> ATM me app balance dekh sakte ho lekin directly change nhi kr sakte ho 
 
 
-Question:-  what  is Inheritance?
-Encapsulation means restricting direct access to data and providing controlled access through methods.
+# Question:-  what  is Inheritance?
+# Encapsulation means restricting direct access to data and providing controlled access through methods.
 
---> Jab ek class dusri class ke properties aur methods ko use karti hai, use Inheritance kehte hain.
+# --> Jab ek class dusri class ke properties aur methods ko use karti hai, use Inheritance kehte hain.
 
-Question :- what is abstraction ?
+# Question :- what is abstraction ?
 
-Unnecessary details ko hide karke sirf important information dikhana Abstraction kehlata hai.
+# Unnecessary details ko hide karke sirf important information dikhana Abstraction kehlata hai.
 
-Real-Life Example: Car chalane ke liye aapko engine ke andar kya ho raha hai, yeh jaanne ki zarurat nahi hoti.
+# Real-Life Example: Car chalane ke liye aapko engine ke andar kya ho raha hai, yeh jaanne ki zarurat nahi hoti.

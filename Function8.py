@@ -3,25 +3,25 @@
 
 # Example :- 
 
-# a = int(input("Enter a number :- "))
-# copy = a
-# rev = 0
+a = int(input("Enter a number :- "))
+copy = a
+rev = 0
 
-# while a > 0:
-#     rev = rev * 10 + a%10
-#     a = a//10
+while a > 0:
+    rev = rev * 10 + a%10
+    a = a//10
 
-# if copy == rev:
-#     print("pallindrome number ")
+if copy == rev:
+    print("pallindrome number ")
 
-# else:
-#     print("not a pallindrome number ")
+else:
+    print("not a pallindrome number ")
 
 
-# def hello() : # create a function 
-#     print("hello")
+def hello() : # create a function 
+    print("hello")
 
-# hello()
+hello()
 
 
 
