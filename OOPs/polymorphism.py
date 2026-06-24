@@ -4,15 +4,15 @@
 # Polymorphism ka matlab hai "Many Forms" (Anek Roop).
 # Jab same method/function different objects ke liye different behavior dikhata hai, use Polymorphism kehte hain.
 
-# def hello():
-#     print("how are you")
+def hello():
+    print("how are you")
 
 
 
-# def hello():
-#     print("what are you doing")
+def hello():
+    print("what are you doing")
 
-# print()
+print()
 
 
 # first method ////////////////
@@ -64,12 +64,12 @@ obj.info()
 
 
 # Method overloding//////////////
-# class hello :
-#     def speak(self,a):
-#         print(f"how are you ")
+class hello :
+    def speak(self,a):
+        print(f"how are you ")
 
-#     def speak(self ,a,b):
-#         print("how are you  ")
+    def speak(self ,a,b):
+        print("how are you  ")
 
 
 

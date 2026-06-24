@@ -7,23 +7,23 @@
 
 # ex:- 
 
-# class Animal: # parent class
-#     a = 12
-#     def __init__(self, name ):
-#         self.name = name 
+class Animal: # parent class
+    a = 12
+    def __init__(self, name ):
+        self.name = name 
 
-#     def details(self):
-#         print(f"hello your name is {self.name}")
+    def details(self):
+        print(f"hello your name is {self.name}")
 
-# class Humans(Animal):# child class
-#     pass
+class Humans(Animal):# child class
+    pass
 
-# obj = Animal("loin")
-# obj2 = Humans("Harsh")
+obj = Animal("loin")
+obj2 = Humans("Harsh")
 
 
-# obj2.details()
-# print(obj2.a)
+obj2.details()
+print(obj2.a)
 
 #your child class object has all the powers to access the attributes and methods and parent class
 
