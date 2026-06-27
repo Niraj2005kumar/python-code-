@@ -1,0 +1,38 @@
+{
+    "student": [
+        {
+            "name": "niraj",
+            "age": 45,
+            "email": "email@gmail.com",
+            "roll_no": "2",
+            "grade": {
+                "Maths": 45.0
+            }
+        },
+        {
+            "name": "krish",
+            "age": 45,
+            "email": "email@gmail.com",
+            "roll_no": "4",
+            "grade": {}
+        }
+    ],
+    "teacher": [
+        {
+            "name": "Tushar",
+            "age": 45,
+            "email": "tushar@gmail.com",
+            "subject": "Maths",
+            "emp_id": "45",
+            "grade": {}
+        },
+        {
+            "name": "krish",
+            "age": 74,
+            "email": "krish@gmail.com",
+            "subject": "python",
+            "emp_id": "75",
+            "grade": {}
+        }
+    ]
+}
