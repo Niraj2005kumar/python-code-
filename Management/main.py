@@ -68,7 +68,17 @@ class Student(Persons):
 
     
     def show_details(self):
-        pass
+        roll_no = input("roll no :- ")
+        for s in data['student']:
+            if s['roll_no'] == roll_no:
+                grade = s['grade']
+                avg = sum(grade.values())/len(grade) if grade else 0
+                
+                print(f"\n Name : {s['name']}")
+                print(f"Roll no : {s['roll_no']}")
+                print(f"Grade : {grade}")
+                print(f"Average : {avg:.1f}")
+                return
 
     def add_grade(self):
         roll_no = input("tell the roll no :- ")
@@ -117,11 +127,20 @@ class Teacher(Persons):
         print (f"Teacher {name } register")
 
     def show_details(self):
-        pass
+        emp_id = input("Employee ID :- ")
+        for t in data['teacher']:
+            if t['emp_id'] == emp_id:
+                
+
+                print(f"\n Name : {t['name']}")
+                print(f"Subject : {t['subject']}")
+                print(f"Emp Id : {t['emp_id']}")                
+                return
+            print("Teacher Not found")
+
+
+
     
-
-
-
 stud = Student()
 tech = Teacher()
 
@@ -143,3 +162,9 @@ elif choice == 2:
 
 elif choice == 3:
     stud.add_grade()
+
+elif choice == 4:
+    stud.show_details()
+
+elif choice == 5:
+    tech.show_details()
