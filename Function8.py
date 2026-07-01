@@ -59,8 +59,8 @@ palindrome_checker(654)
 # Positional arguments wo arguments hote hain jo function call karte waqt same order (position) me pass kiye jaate hain jisme function define hua hota hai.
 
 
-# def multiply(a,b,c,d):
-#     print(a*b*c*d)
+def multiply(a,b,c,d):
+    print(a*b*c*d)
 
 # multiply(4,5,78,65)
 
@@ -72,10 +72,10 @@ palindrome_checker(654)
 # Default Arguments:
 # "Arguments that are assigned a default value during function definition are called default arguments. If no value is passed during function call, the default value is used."
 
-# def addition (a,b,c =12):
-#     print(a+b+c)
+def addition (a,b,c =12):
+    print(a+b+c)
 
-# addition(4,5,2)
+addition(4,5,2)
 
 
 
@@ -85,10 +85,10 @@ palindrome_checker(654)
 # Keyword Arguments:
 # "Arguments passed to a function by specifying the parameter names are called keyword arguments."
 
-# def subtraction(a,b):
-#     print(b-a)
+def subtraction(a,b):
+    print(b-a)
 
-# subtraction(20,30)
+subtraction(20,30)
 
 
 
