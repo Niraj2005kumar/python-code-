@@ -1,7 +1,4 @@
-# function :- A Function is a reusable block code with a name insided of writing the same logic 10 times 
 
-
-# Example :- 
 
 a = int(input("Enter a number :- "))
 copy = a
